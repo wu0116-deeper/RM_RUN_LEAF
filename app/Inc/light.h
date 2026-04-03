@@ -25,7 +25,7 @@ typedef enum { RedState, BlueState, DebugState} LED_State_t;
 /* 一键切换控制源：本地按键直控 or 主控CAN下发 */
 #define LEAF_CONTROL_LOCAL 0U
 #define LEAF_CONTROL_CAN   1U
-#define LEAF_CONTROL_MODE  LEAF_CONTROL_LOCAL
+#define LEAF_CONTROL_MODE  LEAF_CONTROL_lOCAL
 
 /* 本地直控模式下，命中后是否锁存显示（1=锁存，0=松手即灭） */
 #define LOCAL_HIT_LATCH_ENABLE 0U
