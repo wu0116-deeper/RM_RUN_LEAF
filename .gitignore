@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CMake build directories
 build/
 build-*/
@@ -25,3 +26,6 @@ Makefile
 .ninja_deps
 .ninja_log
 compile_commands.json
+=======
+cmake-build-debug/
+>>>>>>> 7ccbef39351ea788d4ffc94d2f3d89cfe8b53cd7
